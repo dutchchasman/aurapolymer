@@ -1,0 +1,5 @@
+<aura:component implements="force:appHostable">
+    <ltng:require scripts="/resource/polymer1_0_a/components/bower_components/webcomponentsjs/webcomponents-lite.min.js" 
+                  afterScriptsLoaded="{!c.init}"/>
+    <span aura:id="content"/>
+</aura:component>
